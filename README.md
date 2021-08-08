@@ -82,7 +82,7 @@ Github提供了一个secret功能，用于存储密钥等敏感信息，请按�
 参考截图设定以上三个secrets，`API_KEY`可选。
 ![](setting.png)
 
-
+---
 完成之后, 每天 UTC 0:10 (北京时间 8:10) 自动触发 github actions 进行填报 。
 
 如果 fork 之后想更新至本仓库最新代码，请参考[此教程](https://blog.csdn.net/qq_35246620/article/details/98039346) 。
