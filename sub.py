@@ -93,6 +93,7 @@ def get_daily(s: requests.Session):
 
 
 def submit(s: requests.Session, old: dict):
+    old['number']='202018009029001'
     new_daily = {
         'realname': old['realname'],
         'number': old['number'],
